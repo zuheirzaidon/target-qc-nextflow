@@ -26,8 +26,10 @@ flowchart TD
     C --> D[SCORE_CANDIDATES]
     D --> E[SELECT_TOP_DESIGNS]
     E --> F[SIMULATE_QC_METRICS]
-    E --> G[MAKE_REPORT]
+    E --> H[MAKE_REPORT]
+    F --> H[BUILD_GENE_SUMMARY]
     F --> G
+    F --> H
 ```
 
 ## Input

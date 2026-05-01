@@ -1,0 +1,4 @@
+region_id,start,end,gene
+r1,100,420,TP53
+r2,500,980,BRCA1
+r3,1000,1460,MYC

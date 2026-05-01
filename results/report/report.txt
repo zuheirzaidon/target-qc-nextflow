@@ -1,0 +1,13 @@
+Target QC Nextflow Report
+=========================
+
+Selected designs: 12
+Mean design score: 75.92
+Mean on-target %: 81.7
+QC PASS count: 9
+QC REVIEW count: 3
+
+Designs by gene:
+- BRCA1: 5
+- MYC: 4
+- TP53: 3

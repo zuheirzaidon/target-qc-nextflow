@@ -1,0 +1,13 @@
+region_id,gene,chunk_id,chunk_start,chunk_end,chunk_length
+r1,TP53,r1_chunk1,100,219,120
+r1,TP53,r1_chunk2,220,339,120
+r1,TP53,r1_chunk3,340,420,81
+r2,BRCA1,r2_chunk1,500,619,120
+r2,BRCA1,r2_chunk2,620,739,120
+r2,BRCA1,r2_chunk3,740,859,120
+r2,BRCA1,r2_chunk4,860,979,120
+r2,BRCA1,r2_chunk5,980,980,1
+r3,MYC,r3_chunk1,1000,1119,120
+r3,MYC,r3_chunk2,1120,1239,120
+r3,MYC,r3_chunk3,1240,1359,120
+r3,MYC,r3_chunk4,1360,1460,101

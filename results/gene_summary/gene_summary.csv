@@ -1,4 +1,0 @@
-gene,selected_designs,mean_design_score,mean_total_reads,mean_mapped_reads_pct,mean_on_target_pct,mean_uniformity_pct,qc_pass_count,qc_review_count
-BRCA1,5,76.0,125000.0,88.0,82.0,85.5,3,2
-MYC,4,77.62,147500.0,84.4,79.3,83.25,3,1
-TP53,3,73.5,105000.0,91.2,84.4,87.5,3,0

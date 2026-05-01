@@ -26,8 +26,8 @@ flowchart TD
     C --> D[SCORE_CANDIDATES]
     D --> E[SELECT_TOP_DESIGNS]
     E --> F[SIMULATE_QC_METRICS]
+    E --> G[BUILD_GENE_SUMMARY]
     E --> H[MAKE_REPORT]
-    F --> G[BUILD_GENE_SUMMARY]
     F --> G
     F --> H
 ```

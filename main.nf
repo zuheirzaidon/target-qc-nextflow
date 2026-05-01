@@ -19,5 +19,5 @@ workflow {
     qc_ch = SIMULATE_QC_METRICS(top_designs_ch)
     gene_summary_ch = BUILD_GENE_SUMMARY(top_designs_ch, qc_ch)
 
-    MAKE_REPORT(top_designs_ch, qc_ch)
+    MAKE_REPORT(top_designs_ch, qc_ch, gene_summary_ch)
 }

@@ -5,15 +5,17 @@ process MAKE_REPORT {
     input:
     path top_designs_csv
     path qc_csv
+    path gene_summary_csv
 
     output:
-    path "report.txt"
+    path "report.html"
 
     script:
     """
     make_report.py \
         --designs ${top_designs_csv} \
         --qc ${qc_csv} \
-        --output report.txt
+        --gene-summary ${gene_summary_csv} \
+        --output report.html
     """
 }

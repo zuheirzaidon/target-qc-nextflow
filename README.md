@@ -1,6 +1,17 @@
 # target-qc-nextflow
 
+![CI](https://github.com/zuheirzaidon/target-qc-nextflow/actions/workflows/ci.yml/badge.svg)
+
 A modular Nextflow pipeline for genomic region chunking, candidate design generation, design scoring, selection, QC simulation, and lightweight reporting.
+
+## Highlights
+
+- Modular DSL2 Nextflow workflow
+- Configurable chunking and candidate generation
+- Candidate scoring and top-design selection
+- QC simulation and gene-level aggregation
+- HTML reporting
+- GitHub Actions CI
 
 ## Overview
 
@@ -57,10 +68,16 @@ Published outputs are written to `results/`:
 - `results/scores/scored_candidates.csv`
 - `results/selected/top_designs.csv`
 - `results/qc/qc_metrics.csv`
-- `results/report/report.txt`
+- `results/report/report.html`
 - `results/gene_summary/gene_summary.csv`*
 
 *-The gene summary output provides a lightweight aggregated view of selected designs and QC metrics at gene level, demonstrating how pipeline outputs can be transformed into review-oriented summary tables.
+
+## Report preview
+
+The pipeline produces an HTML report summarising selected designs, QC metrics, and gene-level aggregation.
+
+![Report preview](docs/report-preview.png)
 
 ## Parameters
 

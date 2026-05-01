@@ -46,4 +46,4 @@ jobs:
           test -f ci_results/selected/top_designs.csv
           test -f ci_results/qc/qc_metrics.csv
           test -f ci_results/gene_summary/gene_summary.csv
-          test -f ci_results/report/report.txt
+          test -f ci_results/report/report.html
